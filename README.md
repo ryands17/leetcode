@@ -6,6 +6,8 @@ This repository contains solutions to various LeetCode problems implemented in G
 
 - [Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description)
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
+- [Jump Game I](https://leetcode.com/problems/jump-game/description)
+- [Jump Game II](https://leetcode.com/problems/jump-game-ii/description)
 
 ### File Structure
 
