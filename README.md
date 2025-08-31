@@ -8,6 +8,8 @@ This repository contains solutions to various LeetCode problems implemented in G
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
 - [Jump Game I](https://leetcode.com/problems/jump-game/description)
 - [Jump Game II](https://leetcode.com/problems/jump-game-ii/description)
+- [Rotate List](https://leetcode.com/problems/rotate-list/description)
+- [Minimum path Sum](https://leetcode.com/problems/minimum-path-sum/description)
 
 ### File Structure
 
