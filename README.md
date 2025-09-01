@@ -10,6 +10,8 @@ This repository contains solutions to various LeetCode problems implemented in G
 - [Jump Game II](https://leetcode.com/problems/jump-game-ii/description)
 - [Rotate List](https://leetcode.com/problems/rotate-list/description)
 - [Minimum path Sum](https://leetcode.com/problems/minimum-path-sum/description)
+- [Decode Ways](https://leetcode.com/problems/decode-ways)
+- [Gas Station](https://leetcode.com/problems/gas-station)
 
 ### File Structure
 
