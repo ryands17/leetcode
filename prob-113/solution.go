@@ -1,7 +1,5 @@
 package prob113
 
-import "fmt"
-
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -37,7 +35,6 @@ func calculate(node *TreeNode, targetSum int, path []int) {
 	currentSum := targetSum - node.Val
 
 	path = append(path, node.Val)
-	fmt.Println("calculating for", node.Val, path, currentSum)
 	if node.Left != nil {
 		calculate(node.Left, currentSum, path)
 	}

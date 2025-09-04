@@ -1,45 +1,31 @@
-package prob113_test
+package prob129_test
 
 import (
-	"reflect"
 	"testing"
 
-	solution "github.com/ryands17/leetcode/prob-113"
+	solution "github.com/ryands17/leetcode/prob-129"
 )
 
-func TestPathSum(t *testing.T) {
+func TestSumNumbers(t *testing.T) {
 	tests := []struct {
 		inputTree []any
-		targetSum int
-		expected  [][]int
+		expected  int
 	}{
 		{
-			inputTree: []any{5, 4, 8, 11, nil, 13, 4, 7, 2, nil, nil, 5, 1},
-			targetSum: 22,
-			expected:  [][]int{{5, 4, 11, 2}, {5, 8, 4, 5}},
-		},
-		{
 			inputTree: []any{1, 2, 3},
-			targetSum: 5,
-			expected:  [][]int{},
+			expected:  25,
 		},
 		{
-			inputTree: []any{1, 2},
-			targetSum: 0,
-			expected:  [][]int{},
-		},
-		{
-			inputTree: []any{1, 2},
-			targetSum: 1,
-			expected:  [][]int{},
+			inputTree: []any{4, 9, 0, 5, 1},
+			expected:  1026,
 		},
 	}
 
 	for _, test := range tests {
 		root := createTree(test.inputTree)
-		result := solution.PathSum(root, test.targetSum)
-		if !reflect.DeepEqual(result, test.expected) {
-			t.Errorf("For input tree %v and target sum %d, expected %v but got %v", test.inputTree, test.targetSum, test.expected, result)
+		result := solution.SumNumbers(root)
+		if result != test.expected {
+			t.Errorf("For input tree %v, expected %d but got %d", test.inputTree, test.expected, result)
 		}
 	}
 }

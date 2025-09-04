@@ -4,16 +4,18 @@ This repository contains solutions to various LeetCode problems implemented in G
 
 ## Problems
 
-- [Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description)
-- [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
-- [Jump Game I](https://leetcode.com/problems/jump-game/description)
-- [Jump Game II](https://leetcode.com/problems/jump-game-ii/description)
-- [Rotate List](https://leetcode.com/problems/rotate-list/description)
-- [Minimum path Sum](https://leetcode.com/problems/minimum-path-sum/description)
-- [Decode Ways](https://leetcode.com/problems/decode-ways/description)
-- [Gas Station](https://leetcode.com/problems/gas-station/description)
+- [3021. Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description)
+- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
+- [55. Jump Game I](https://leetcode.com/problems/jump-game/description)
+- [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/description)
+- [61. Rotate List](https://leetcode.com/problems/rotate-list/description)
+- [64. Minimum path Sum](https://leetcode.com/problems/minimum-path-sum/description)
+- [91. Decode Ways](https://leetcode.com/problems/decode-ways/description)
+- [134. Gas Station](https://leetcode.com/problems/gas-station/description)
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/description)
-- [Path Sum II](https://leetcode.com/problems/path-sum-ii/description)
+- [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description)
+- [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description)
+- [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description)
 
 ### File Structure
 
